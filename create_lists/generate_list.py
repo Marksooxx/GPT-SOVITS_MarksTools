@@ -63,3 +63,6 @@ if __name__ == "__main__":
         sys.exit(1)
     
     generate_list(audio_dir) 
+
+    # 等待用户输入任意键后退出
+    input("按任意键退出...")
