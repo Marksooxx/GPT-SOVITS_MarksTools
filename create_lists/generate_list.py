@@ -32,7 +32,7 @@ def generate_list(audio_dir):
                 # 如果没有下划线，则使用整个文件名
                 text = filename_no_ext
             # 组合成list格式，使用ja作为语言标记
-            line = f"{file_path}|{speaker_name}|ja|{text}"
+            line = f"{file_path}|{speaker_name}|JA|{text}"
             output_lines.append(line)
     
     # 写入文件
