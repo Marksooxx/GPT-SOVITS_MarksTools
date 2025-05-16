@@ -7,7 +7,7 @@ def generate_list(audio_dir):
     :param audio_dir: 音频文件目录
     """
     # 确保输出目录存在
-    output_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "output", "asr_opt")
+    output_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), "output", "asr_opt")
     os.makedirs(output_dir, exist_ok=True)
     
     # 获取音频目录的文件夹名作为说话人名称
